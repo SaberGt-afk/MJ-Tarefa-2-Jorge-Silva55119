@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+   public float speed = 2f;
    // Start is called before the first frame update
    void Start()
    {
@@ -15,8 +16,9 @@ public class PlayerController : MonoBehaviour
    // Update is called once per frame
    void Update()
    {
-       Vector2 position = transform.position;
-       position.x = position.x + 0.01f;
-       transform.position = position;
+        Vector3 position = transform.position;
+        position.x += speed * Time.deltaTime; // Move no eixo X
+        position.y += speed * Time.deltaTime; // Move no eixo Y
+        transform.position = position;
    }
 }
