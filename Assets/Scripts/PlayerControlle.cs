@@ -14,12 +14,13 @@ public class PlayerControllerTutorialUpdates : MonoBehaviour
 
   // Variables related to the health system
   public int maxHealth = 5;
+  public int health { get { return currentHealth; }}
   int currentHealth = 1;
     void Start()
     {
-      MoveAction.Enable(); // Habilita a ação de input MoveAction
+      MoveAction.Enable();
       rigidbody2d = GetComponent<Rigidbody2D>();
-      currentHealth = maxHealth;
+      //currentHealth = maxHealth;
     }
 
     // Update is called once per frame
