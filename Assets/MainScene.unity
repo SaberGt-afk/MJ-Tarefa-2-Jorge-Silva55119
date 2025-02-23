@@ -345,7 +345,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -357,10 +357,22 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 1
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2.56}
   m_EdgeRadius: 0
+--- !u!114 &932224076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932224072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 915f1f41fdaf3f54ca86c59e37f3eb48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1457521216
 GameObject:
   m_ObjectHideFlags: 0
@@ -6109,6 +6121,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1965632833093904229, guid: c14cfd0c72aa1f54bae235c9f34c0f63, type: 3}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4788054526160758049, guid: c14cfd0c72aa1f54bae235c9f34c0f63, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -6270,6 +6286,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3138137373697184439, guid: 3f536260bce754647b03f09d8eb5ff2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 932224076}
     - targetCorrespondingSourceObject: {fileID: 3138137373697184439, guid: 3f536260bce754647b03f09d8eb5ff2d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 932224075}
