@@ -5966,6 +5966,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2044752345287114668, guid: c14cfd0c72aa1f54bae235c9f34c0f63, type: 3}
+      propertyPath: timeInvincible
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2044752345287114668, guid: c14cfd0c72aa1f54bae235c9f34c0f63, type: 3}
       propertyPath: SprintAction.m_Name
       value: Sprint
       objectReference: {fileID: 0}
