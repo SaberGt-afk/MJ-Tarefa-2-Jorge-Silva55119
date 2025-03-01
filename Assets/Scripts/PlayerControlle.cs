@@ -72,8 +72,8 @@ public class PlayerControllerTutorialUpdates : MonoBehaviour
   }
 
 
-     currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-     Debug.Log(currentHealth + "/" + maxHealth);
+   currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+     UIHandler.instance.SetHealthValue(currentHealth / (float)maxHealth);
   }
 
 }
