@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerControllerTutorialUpdates : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     // Variables related to player character movement
   public InputAction MoveAction;
