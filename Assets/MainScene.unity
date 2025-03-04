@@ -122,6 +122,32 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &447526685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 612408899345351664, guid: c14cfd0c72aa1f54bae235c9f34c0f63, type: 3}
+  m_PrefabInstance: {fileID: 1318659417586236851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &447526691
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447526685}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &798230548
 GameObject:
   m_ObjectHideFlags: 0
@@ -5614,7 +5640,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.73, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.41, y: 1.41, z: 1.41}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5632,7 +5658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  vertical: 0
+  vertical: 1
   changeTime: 3
 --- !u!95 &1668869934
 Animator:
@@ -6342,7 +6368,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 612408899345351664, guid: c14cfd0c72aa1f54bae235c9f34c0f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 447526691}
   m_SourcePrefab: {fileID: 100100000, guid: c14cfd0c72aa1f54bae235c9f34c0f63, type: 3}
 --- !u!1001 &3323963756027753244
 PrefabInstance:
