@@ -30,10 +30,12 @@ public class Projectile : MonoBehaviour
 
    void OnTriggerEnter2D(Collider2D other)
   {
+    Debug.Log("OnTriggerEnter2D: " + other.gameObject.name);
        EnemyController enemy = other.GetComponent<EnemyController>();
        if (enemy != null)
            {
                enemy.Fix();
+               Debug.Log("Fix" + enemy.name);
            }
 
 
